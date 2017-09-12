@@ -1,9 +1,12 @@
 {
   "name": "chubrub",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Atom syntax theme with 3 accent hues",
-  "keywords": ["syntax", "theme"],
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
   "repository": "https://github.com/vadirn/theme-chubrub",
   "license": "MIT",
   "engines": {
