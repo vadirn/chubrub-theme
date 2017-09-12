@@ -1,0 +1,128 @@
+@import "syntax-variables";
+
+atom-text-editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+atom-text-editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+atom-text-editor .gutter .line-number.cursor-line {
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+atom-text-editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+atom-text-editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+atom-text-editor .search-results .syntax--marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+atom-text-editor .search-results .syntax--marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+atom-text-editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+atom-text-editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line {
+  // background-color: #4A4D57;
+}
+
+.syntax--comment {
+  color: #5E6066;
+}
+
+.syntax--string {
+  color: #7EE17E;
+}
+
+.syntax--constant.syntax--numeric {
+  color: #7EE17E;
+}
+
+.syntax--constant.syntax--language {
+  color: #7EE17E;
+}
+
+.syntax--constant.syntax--character, .syntax--constant.syntax--other {
+  color: #D8DBE1;
+}
+
+.syntax--variable {
+  color: #D8DBE1;
+}
+
+.syntax--keyword {
+  color: #9D9FA3;
+}
+
+.syntax--storage {
+  color: #D8DBE1;
+}
+
+.syntax--storage.syntax--type {
+  color: #9D9FA3;
+}
+
+.syntax--entity.syntax--name.syntax--class {
+  color: #D3B0F5;
+}
+
+.syntax--entity.syntax--other.syntax--inherited-class {
+  color: #D3B0F5;
+}
+
+.syntax--entity.syntax--name.syntax--function {
+  color: #7F9FF5;
+}
+
+.syntax--variable.syntax--parameter {
+  color: #B0BAF5;
+}
+
+.syntax--entity.syntax--name.syntax--tag {
+  color: #7F9FF5;
+}
+
+.syntax--entity.syntax--other.syntax--attribute-name {
+  color: #B0BAF5;
+}
+
+.syntax--support.syntax--function {
+  color: #7F9FF5;
+}
+
+.syntax--support.syntax--constant {
+  color: #9D9FA3;
+}
+
+.syntax--support.syntax--type, .syntax--support.syntax--class {
+  color: #D3B0F5;
+}
+
+.syntax--support.syntax--other.syntax--variable {
+  color: #D8DBE1;
+}
