@@ -2,4 +2,4 @@
 
 Simple theme with 3 highlight hues.
 
-![Chubrub]()
+![Chubrub](https://raw.githubusercontent.com/vadirn/theme-chubrub/master/screenshot.png)
